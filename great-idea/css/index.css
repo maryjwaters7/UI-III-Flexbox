@@ -64,24 +64,33 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	max-width:100%;
+	/*border:1px solid pink;*/
+	}
+
+
 /* header container starts here */
 
 /* This is the navigation bar section of the page*/
-
-header {
-	margin-bottom: 5%;
+body {
+	width:900px;
 }
 
-.navbar {
-	display: inline-block;
-	width: 100%;
-	margin: 0 auto;
 
+header { 
+	margin: 5px 5px 30px 5px;
 }
+
+
 
 nav {
-	display: inline-block;
-	width: 85%;
+	display:flex;
+	justify-content:space-evenly;
+	align-items: center;
 }
 
 a {
@@ -89,110 +98,81 @@ a {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 15px;
 	color: rgb(112, 112, 112);
-	padding: 0 5%;
 }
 
-#logoid {
-	display: inline-block;
-	width : 10%;
-	margin: 1% 4% 0 0;
-}
+
+
 
 /* This is the top section of the page*/
 .top {
-	display: inline-block;
-	width: 100%;
-	margin: 0 auto;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom: 50px;
 }
 
-.toptitle {
-	display: inline-block;
-	width: 60%;
+.top article{
+	width:45%;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
 }
 
-h1 {
-	text-align:center;
-	font-size: 80px;
-	letter-spacing: 3px;
+.top article h1 {
+	font-size:70px;
 }
 
-p {
-	display: inline-block;
-	width: 100%;
-	margin: 0 auto;
-}
-
-#box {
-	margin: 4% auto;
-	width: 200px;
-	height: 30px;
+.top article a{
+	display:flex;
 	border: 1px solid black;
-	text-align: center;
-	padding: 5px 0 5px 0;
-	font-size: 16px;
-	font-family: 'Titillium Web', sans-serif;
+	height: 30px;
+	width:150px;
+	justify-content:center;
+	align-items:center;
 }
 
-#topimg {
-	display: inline-block;
+/*This is the middle section of the page*/
+
+.middle-top {
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 40px;
+
+}
+
+.middle-top article {
+	width: 45%;
+	text-align: justify;
+}
+
+h2{
+	margin-bottom: 10px;
+}
+
+.middle-bottom {
+	display:flex;
+	justify-content:space-between;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.middle-bottom article {
 	width: 30%;
-	margin: 0 5% 0 0;
+	text-align: justify;
 }
-
-/*This is the center section of the page */
-
-.middle {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	margin: 5% 5% 3% 5%;
-	padding: 3% 0;
-}
-
-h2 {
-	font-size: 20px;
-	margin: 2% 0;
-}
-
-#ttop{
-	display: inline-block;
-	width: 100%;
-}
-
-#tmiddle{
-	width: 100%;
-	margin: 0 auto;
-}
-
-
-img.middle-img {
-	width: 100%;
-	margin: 0 auto;
-	padding: 3% 0;
-}
-
-#tbottom{
-	display: inline-block;
-	width: 100%;
-}
-
-/* this is the bottom footer section of the page */
 
 h3 {
-	font-size: 18px;
-	margin: 2% 0 2% 5%;
+	font-size: 20px;
+	margin-bottom:15px;
 }
-
-address {
-	margin: 0 0 0 5%;
-}
-
-p.add {
-	margin-bottom: 2%;
+address p{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	margin-bottom:15px;
 }
 
 #copyright {
-	text-align: center;
-	margin: 5% 0;
-	font-size: 14px;
-
-}/
+	text-align:center;
+	margin:10px;
+}
