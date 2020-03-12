@@ -100,82 +100,38 @@ a {
 	color: rgb(112, 112, 112);
 }
 
+/* Section*/
 
-
-
-/* This is the top section of the page*/
-.top {
-	display:flex;
-	justify-content:space-between;
-	margin-bottom: 50px;
+.middle {
+    margin-top:20px;
 }
 
-.top article{
-	width:45%;
-	display:flex;
-	flex-direction:column;
-	justify-content: center;
-	align-items:center;
+.middle .box article {
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+   flex-wrap:wrap;
 }
 
-.top article h1 {
-	font-size:70px;
+.middle .box article h2 p a{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
 }
 
-.top article a{
-	display:flex;
-	border: 1px solid black;
-	height: 30px;
-	width:150px;
-	justify-content:center;
-	align-items:center;
+.box article {
+    width: 35%;
+    border: 2px solid black;
+    background-color: lightgrey;
+    padding: 5px;
 }
 
-/*This is the middle section of the page*/
-
-.middle-top {
-	display: flex;
-	justify-content:space-between;
-	margin-bottom: 40px;
+.box article p {
+    text-align: justify;
 
 }
 
-.middle-top article {
-	width: 45%;
-	text-align: justify;
+.box article a{
+    text-align: center;
 }
-
-h2{
-	margin-bottom: 10px;
-}
-
-.middle-bottom {
-	display:flex;
-	justify-content:space-between;
-	margin-top: 40px;
-	margin-bottom: 50px;
-}
-
-.middle-bottom article {
-	width: 30%;
-	text-align: justify;
-}
-
-/*This is the bottom section fo the page*/
-
-h3 {
-	font-size: 20px;
-	margin-bottom:15px;
-}
-address p{
-	display:flex;
-	flex-direction:column;
-	justify-content:space-between;
-	margin-bottom:15px;
-}
-
-#copyright {
-	text-align:center;
-	margin:10px;
-}
-
