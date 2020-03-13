@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
+
+/* Your code starts here! */
+
+
+
+/* header container starts here */
+
+/* This is the navigation bar section of the page*/
+body {
+    width:900px;
+    margin: 0 40px 0 40px ;
+}
+
+
+header { 
+	margin: 5px 5px 30px 5px;
+}
+
+
+
+nav {
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	color: rgb(112, 112, 112);
+}
+/* -----------Top Section----------------*/
+
+.serv-top .services-header-img{
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.serv-top article p {
+    text-align:justify;
+}
+
+/* ---------Box Section---------------*/
+
+.middle {
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-top: 30px;
+}
+
+.middle .box {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.middle .box article {
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+   flex-wrap:wrap;
+   width: 430px;
+   border: 2px solid black;
+   background-color: lightgrey;
+   padding: 15px;
+   margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.middle .box article p {
+    
+    margin-bottom: 15px;
+
+}
+
+.middle .box article a{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius:5px;
+    width: 120px;
+    height:30px;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+}
+/* ----------Bottom Section-----------*/
+
+.bottom {
+    margin-top: 35px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.services-info-img {
+    display:flex;
+    justify-content:space-between;
+    width: 400px;
+}
+
+h3 {
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.bottom article {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width: 440px;
+    line-height: 1.5;
+}
+
+.bottom article ul li {
+    margin-top: 20px;
+    margin-left: 22px;
+    list-style: square;
+} 
+
+
+
+/* -----Footer Section -------*/
+
+footer {
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+footer article {
+    text-align: center;
+}
